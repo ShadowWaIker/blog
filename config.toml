@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "https://developer.rebeta.cn/"
 DefaultContentLanguage = "zh-cn" # 语言
 title = "ShadoWalker" # 站点标题
 theme = "beautifulhugo" # 主题
