@@ -1,0 +1,119 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "zh-cn" # 语言
+title = "ShadoWalker" # 站点标题
+theme = "beautifulhugo" # 主题
+metaDataFormat = "yaml" # ？
+pygmentsStyle = "trac" # ？
+pygmentsUseClasses = true # ？
+pygmentsCodeFences = true # ？
+pygmentsCodefencesGuessSyntax = true # ？
+HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  since = "2019"            # 站点建立时间
+  # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Stay Hungry, Stay Foolish!"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "2006/01/02"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false # page 底部的图标 ( themes/beautifulhugo/layouts/partials/share-links.html )
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Rebeta"
+  website = "www.rebeta.cn"
+  email = "admin@rebeta.cn"
+  #facebook = "username"
+  github = "ShadowWaIker"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #twitter = "username"
+  #reddit = "username"
+  #slack = "username"
+  linkedin = "username"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  #instagram = "username"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+  #500px = "username"
+  #codepen = "username"
+  #mastodon = "url"
+  #kaggle = "username"
+  #weibo = "username"
+
+[[menu.main]]
+    name = "博客"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "关于我"
+    url = "https://www.rebeta.cn"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "samples"
+    name = "Samples"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Big Image Sample"
+    url = "post/2017-03-07-bigimg-sample"
+    weight = 1
+
+[[menu.main]]
+    parent = "samples"
+    name = "Math Sample"
+    url = "post/2017-03-05-math-sample"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Code Sample"
+    url = "post/2016-03-08-code-sample"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
