@@ -1,11 +1,12 @@
-baseurl = "http://8j8p4t.coding-pages.com/"
+baseurl = "https://shadowalker.rebeta.cn/"
+LanguageCode = "zh_CN"
 DefaultContentLanguage = "zh-cn" # 语言
 title = "ShadoWalker" # 站点标题
 theme = "beautifulhugo" # 主题
 metaDataFormat = "yaml" # ？
 pygmentsStyle = "trac" # ？
-pygmentsUseClasses = true # ？
-pygmentsCodeFences = true # ？
+pygmentsUseClasses = true # 代码高亮
+pygmentsCodeFences = true # 代码高亮
 pygmentsCodefencesGuessSyntax = true # ？
 HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
 #pygmentsUseClassic = true
@@ -14,6 +15,7 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
 #googleAnalytics = "XXX"
 
 [Params]
+  selfHosted = true # 禁用 CDN , 加快打开速度 ( 因为 CDN 都是国外的 )
   since = "2019"            # 站点建立时间
   # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Stay Hungry, Stay Foolish!"
@@ -32,6 +34,14 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
   showRelatedPosts = true
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  
+  # Display a message at the beginning of an article to warn the readers that it's content may be outdated.
+  # 在文章开头显示提示信息，提醒读者文章内容可能过时。
+  enableOutdatedInfoWarning = true
+  [Params.outdatedInfoWarning]
+    enable = true
+    hint = 30               # Display hint if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示提醒
+    warn = 180              # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -46,8 +56,9 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
 #  desc = "Hexagon"
 
 [Author]
+  beian = "蒙ICP备17000857号"
   name = "Rebeta"
-  website = "www.rebeta.cn"
+  website = "http://www.rebeta.cn"
   email = "admin@rebeta.cn"
   #facebook = "username"
   github = "ShadowWaIker"
@@ -76,44 +87,54 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
   #weibo = "username"
 
 [[menu.main]]
-    name = "博客"
+    name = "首页"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "关于我"
-    url = "https://www.rebeta.cn"
-    weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
     name = "Tags"
     url = "tags"
+    weight = 2
+
+[[menu.main]]
+    name = "Links"
+    url = "page/links/"
     weight = 3
+
+[[menu.main]]
+    name = "About Me"
+    url = "https://www.rebeta.cn"
+    weight = 4
+
+[[menu.main]]
+    name = "旧版"
+    url = "https://developer.rebeta.cn"
+    weight = 4
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
+
+#[[menu.main]]
+#    name = "KMS"
+#    url = "page/kms/"
+#    weight = 5

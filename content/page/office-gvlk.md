@@ -1,11 +1,15 @@
 ---
-title: 所有Office版本的GVLK密钥对照表
-author: ShadoWalker
+title: Office
+subtitle: GVLK 密钥对照表
 type: page
-date: 2018-10-16T07:44:43+00:00
-
+comments: false # 关闭评论
+date: 2019-09-30T18:56:00+08:00
 ---
-> Office更换GVLK密钥的方法：先运行`cscript ospp.vbs /dstatus`记下现有秘钥的后5位，再运行`cscript ospp.vbs /unpkey:“现有秘钥后5位”`将现有秘钥卸载，最后运行`cscript ospp.vbs /inpkey:“GVLK KEY”`重新安装`GVLK KEY`。
+
+> Office更换GVLK密钥的方法：  
+> 先运行 `cscript ospp.vbs /dstatus` 记下现有秘钥的后5位  
+> 再运行 `cscript ospp.vbs /unpkey:"现有秘钥后5位"` 将现有秘钥卸载  
+> 最后运行 `cscript ospp.vbs /inpkey:"GVLK KEY"` 重新安装 `GVLK KEY`
 
 ## Office 2016 系列 {#Office-2016-系列}
 
@@ -68,6 +72,4 @@ date: 2018-10-16T07:44:43+00:00
 | Visio Professional 2010       | 7MCW8-VRQVK-G677T-PDJCM-Q8TCP |
 | Visio Standard 2010           | 767HD-QGMWX-8QTDB-9G3R2-KHFGJ |
 
-&nbsp;
-
-本页面内容转载自<span class="site-title"><a class="brand" href="https://bluskai.com/" rel="start">蓝色随想</a> （https://bluskai.com/archives/office-gvlk.html</span>）
+本页面内容转载自<span class="site-title"><a class="brand" href="https://bluskai.com/" rel="start">蓝色随想</a> ( https://bluskai.com/archives/office-gvlk.html</span> )

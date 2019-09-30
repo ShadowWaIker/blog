@@ -1,11 +1,13 @@
 ---
-title: 所有Windows版本的GVLK密钥对照表
-author: ShadoWalker
+title: Windows
+subtitle: GVLK 密钥对照表
 type: page
-date: 2018-10-16T07:40:49+00:00
-
+comments: false # 关闭评论
+date: 2019-09-30T18:56:00+08:00
 ---
-> 系统更换GVLK密钥的方法：运行`slmgr /upk`卸载当前秘钥，再运行`slmgr /ipk “GVLK KEY”`重新安装`GVLK KEY`。
+
+> 更换GVLK密钥的方法： 
+运行`slmgr /upk`卸载当前秘钥，再运行`slmgr /ipk “GVLK KEY”`重新安装`GVLK KEY`。
 
 ## Windows 10 and Windows Server 2016 {#Windows-10-and-Windows-Server-2016}
 
@@ -86,6 +88,4 @@ date: 2018-10-16T07:40:49+00:00
 | Windows Server 2008 Datacenter without Hyper-V | 22XQ2-VRXRG-P8D42-K34TD-G3QQC |
 | Windows Server 2008 for Itanium-Based Systems  | 4DWFP-JF3DJ-B7DTH-78FJB-PDRHK |
 
-&nbsp;
-
-本页面内容转载自<span class="site-title"><a class="brand" href="https://bluskai.com/" rel="start">蓝色随想</a> （https://bluskai.com/archives/windows-gvlk.html</span>）
+本页面内容转载自 <span class="site-title"><a class="brand" href="https://bluskai.com/" rel="start">蓝色随想</a> ( https://bluskai.com/archives/windows-gvlk.html</span> )
