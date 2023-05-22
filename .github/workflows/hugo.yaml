@@ -29,7 +29,8 @@ defaults:
 
 jobs:
   # Build job
-  编译:
+  build:
+    name: 构建 Hugo 站点
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.111.3
@@ -66,7 +67,8 @@ jobs:
           path: ./public
 
   # Deployment job
-  部署:
+  deploy:
+    name: 部署站点到 GitHub Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
