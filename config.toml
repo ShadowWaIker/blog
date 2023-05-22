@@ -102,37 +102,14 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
     weight = 3
 
 [[menu.main]]
-    name = "About Me"
-    url = "https://www.rebeta.cn"
+    name = "Github"
+    url = "https://github.com/ShadowWaIker"
     weight = 4
 
 [[menu.main]]
-    name = "旧版"
-    url = "https://developer.rebeta.cn"
-    weight = 4
-
-#[[menu.main]]
-#    identifier = "samples"
-#    name = "Samples"
-#    weight = 2
-
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Big Image Sample"
-#    url = "post/2017-03-07-bigimg-sample"
-#    weight = 1
-
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Math Sample"
-#    url = "post/2017-03-05-math-sample"
-#    weight = 2
-
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Code Sample"
-#    url = "post/2016-03-08-code-sample"
-#    weight = 3
+    name = "About Me"
+    url = "https://www.rebeta.cn"
+    weight = 5
 
 #[[menu.main]]
 #    name = "KMS"
