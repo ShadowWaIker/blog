@@ -1,1 +1,1 @@
-[![部署到 Github Pages　](https://github.com/ShadowWaIker/blog/actions/workflows/hugo.yaml/badge.svg)](https://github.com/ShadowWaIker/blog/actions/workflows/hugo.yaml)
+[![部署到 Github Pages](https://github.com/ShadowWaIker/blog/actions/workflows/hugo.yaml/badge.svg)](https://github.com/ShadowWaIker/blog/actions/workflows/hugo.yaml)
