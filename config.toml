@@ -1,7 +1,7 @@
-baseurl = "https://shadowalker.rebeta.cn/"
+baseurl = "https://blog.rebeta.cn/"
 LanguageCode = "zh_CN"
 DefaultContentLanguage = "zh-cn" # 语言
-title = "ShadoWalker" # 站点标题
+title = "Gopher小马的流水账" # 站点标题
 theme = "beautifulhugo" # 主题
 metaDataFormat = "yaml" # ？
 pygmentsStyle = "trac" # ？
@@ -18,7 +18,7 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
   selfHosted = true # 禁用 CDN , 加快打开速度 ( 因为 CDN 都是国外的 )
   since = "2019"            # 站点建立时间
   # homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Stay Hungry, Stay Foolish!"
+  subtitle = "Go Go Go"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -56,7 +56,7 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
 #  desc = "Hexagon"
 
 [Author]
-  beian = "蒙ICP备17000857号"
+  beian = "蒙ICP备2023001506号"
   name = "Rebeta"
   website = "http://www.rebeta.cn"
   email = "admin@rebeta.cn"
@@ -67,7 +67,7 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
   #twitter = "username"
   #reddit = "username"
   #slack = "username"
-  linkedin = "username"
+  #linkedin = "username"
   #xing = "username"
   #stackoverflow = "users/XXXXXXX/username"
   #snapchat = "username"
