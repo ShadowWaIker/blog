@@ -1,7 +1,7 @@
 baseurl = "https://blog.rebeta.cn/"
 LanguageCode = "zh_CN"
 DefaultContentLanguage = "zh-cn" # 语言
-title = "小马的流水账" # 站点标题
+title = "Gopher小马的流水账" # 站点标题
 theme = "beautifulhugo" # 主题
 metaDataFormat = "yaml" # ？
 pygmentsStyle = "trac" # ？
@@ -17,8 +17,8 @@ HasCJKLanguage = true # 如果不打开的话, 字数统计只计算英文
 [Params]
   selfHosted = true # 禁用 CDN , 加快打开速度 ( 因为 CDN 都是国外的 )
   since = "2019"            # 站点建立时间
-  homeTitle = "Gopher小马的流水账" # Set a different text for the header on the home page
-  subtitle = "Go Go Go"
+  homeTitle = "Go Go Go" # Set a different text for the header on the home page
+  subtitle = "fmt.Println(\"Gopher小马的流水账\")"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
