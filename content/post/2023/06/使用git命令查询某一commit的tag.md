@@ -2,7 +2,7 @@
 title: 使用 git 命令查询某一 commit 的 tag
 author: ShadoWalker
 type: post
-date: 2023-06-19T10:13:00+00:00
+date: 2023-06-19T10:13:00+08:00
 tags:
   - 笔记
 ---
