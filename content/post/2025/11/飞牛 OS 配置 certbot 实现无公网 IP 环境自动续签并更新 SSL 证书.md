@@ -2,14 +2,14 @@
 title: 飞牛 OS 配置 certbot 实现无公网 IP 环境自动续签并更新 SSL 证书
 author: ShadoWalker
 type: post
-date: 2023-06-19T19:17:00+08:00
+date: 2025-11-17T19:17:00+08:00
 tags:
   - 笔记
 ---
 
 #### 1. 开启 ssh 功能
 
-![开启 ssh 功能](/static/images/2025/11/fn/ScreenShot_2025-11-17_104815_393.png "开启 ssh 功能")
+![开启 ssh 功能](/images/2025/11/fn/ScreenShot_2025-11-17_104815_393.png "开启 ssh 功能")
 
 #### 2. 使用 SSH 连接到飞牛 NAS
 
@@ -82,7 +82,7 @@ certbot certonly \
 
 #### 6. 在飞牛中添加证书
 
-![在飞牛中添加证书](/static/images/2025/11/fn/ScreenShot_2025-11-17_115203_373.png "在飞牛中添加证书")
+![在飞牛中添加证书](/images/2025/11/fn/ScreenShot_2025-11-17_115203_373.png "在飞牛中添加证书")
 
 #### 7. 在终端获取证书存放位置。
 
