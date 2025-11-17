@@ -106,3 +106,13 @@ sudo certbot renew --force-renewal
 ```
 
 执行完毕后刷新浏览器，查看证书的到期时间是否有变化。
+
+
+
+参考内容：
+
+证书自动更新脚本参考了以下脚本
+https://github.com/lfgyx/fnos_certificate_update/blob/main/src/update_cert.sh
+
+在终端获取证书存放位置参考了以下文章
+https://zhuanlan.zhihu.com/p/1914312979106756527
