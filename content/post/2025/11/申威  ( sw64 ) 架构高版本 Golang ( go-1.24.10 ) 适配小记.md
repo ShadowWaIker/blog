@@ -2,7 +2,7 @@
 title: 申威  ( sw64 ) 架构高版本 Golang ( go-1.24.10 ) 适配小记
 author: ShadoWalker
 type: post
-date: 2025-11-18T19:13:00+08:00
+date: 2025-11-16T12:13:00+08:00
 tags:
   - 笔记
 ---
